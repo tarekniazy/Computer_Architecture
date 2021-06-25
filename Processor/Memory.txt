@@ -1,0 +1,12 @@
+in R2 
+in R3 
+in R4 
+ldm R1,F5 
+push R1 
+push R2 
+pop R1 
+pop R2 
+std R2,200 
+std R1,202 
+ldd R3,202 
+ldd R4,200 

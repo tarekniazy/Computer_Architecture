@@ -1,0 +1,52 @@
+vsim -gui work.proccessor
+# vsim -gui work.proccessor 
+# Start time: 04:54:21 on May 30,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.proccessor(a_data)
+# Loading work.fetch(a_fetch)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.mux_generic(with_select_mux)
+# Loading ieee.numeric_std(body)
+# Loading work.ram(syncrama)
+# Loading work.mux2(whenmux)
+# Loading work.n_adder(struct)
+# Loading work.my_adder(a_my_adder)
+# Loading work.buff(arch1)
+# Loading work.control(a_control)
+# Loading work.decode(a_decode)
+# Loading work.regfile(a_reg)
+# Loading work.exe_mem(struct_exe_mem)
+# Loading work.execute(arch1)
+# Loading work.alu2(struct_alu2)
+# Loading work.parta2(structa2)
+# Loading work.partb2(structb2)
+# Loading work.partc2(structc2)
+# Loading work.ccr(struct_ccr)
+# Loading work.mem_stage(struct_mem)
+# Loading work.su(struct_su)
+# Loading work.s_dff(struct_s_dff)
+# Loading work.mem_ram(syncrama)
+# Loading work.muxbit(when_else_mux)
+add wave -position insertpoint sim:/proccessor/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aliaa  Hostname: LAPTOP-TDTCFEO5  ProcessID: 4328
+#           Attempting to use alternate WLF file "./wlftm4bjbe".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftm4bjbe
+add wave -position insertpoint sim:/proccessor/fet/*
+add wave -position insertpoint sim:/proccessor/FDB/*
+add wave -position insertpoint sim:/proccessor/CU/*
+add wave -position insertpoint sim:/proccessor/dec/*
+add wave -position insertpoint sim:/proccessor/DEB/*
+add wave -position insertpoint sim:/proccessor/EXMem/*
+add wave -position insertpoint sim:/proccessor/M3/*
+add wave -position insertpoint sim:/proccessor/mux8/*
+add wave -position insertpoint sim:/proccessor/mux9/*
+add wave -position insertpoint sim:/proccessor/EXMem/u0/*
+add wave -position insertpoint sim:/proccessor/EXMem/u1/*
+force -freeze sim:/proccessor/CLK 1 0, 0 {50 ps} -r 100
+force -freeze sim:/proccessor/RST 1 0
+force -freeze sim:/proccessor/Interrupt 0 0
+mem load -i C:/Users/aliaa/Desktop/proj_v12/BranchPrediction_mc_new.mem /proccessor/fet/IM/ram

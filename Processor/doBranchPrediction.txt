@@ -1,0 +1,258 @@
+vsim -gui work.proccessor 
+# Start time: 06:23:10 on Jun 02,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.proccessor(a_data)
+# Loading work.fetch(a_fetch)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.mux_generic(when_else_mux)
+# Loading ieee.numeric_std(body)
+# Loading work.ram(syncrama)
+# Loading work.mux2(whenmux)
+# Loading work.n_adder(struct)
+# Loading work.my_adder(a_my_adder)
+# Loading work.buff(arch1)
+# Loading work.control(a_control)
+# Loading work.decode(a_decode)
+# Loading work.regfile(a_reg)
+# Loading work.exe_mem(struct_exe_mem)
+# Loading work.execute(arch1)
+# Loading work.alu2(struct_alu2)
+# Loading work.parta2(structa2)
+# Loading work.partb2(structb2)
+# Loading work.partc2(structc2)
+# Loading work.ccr(struct_ccr)
+# Loading work.mem_stage(struct_mem)
+# Loading work.su(struct_su)
+# Loading work.s_dff(struct_s_dff)
+# Loading work.mem_ram(syncrama)
+# Loading work.funit(forward)
+# Loading work.muxbit(when_else_mux)
+# Loading work.hazardunit(hdu)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /proccessor/dec/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /proccessor/dec/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /proccessor/fet/IM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /proccessor/fet/IM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 99 ps  Iteration: 2  Instance: /proccessor/fet/IM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 99 ps  Iteration: 2  Instance: /proccessor/fet/IM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 750 ps  Iteration: 1  Instance: /proccessor/dec/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 750 ps  Iteration: 1  Instance: /proccessor/dec/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 800 ps  Iteration: 1  Instance: /proccessor/dec/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 800 ps  Iteration: 1  Instance: /proccessor/dec/RF
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1550 ps  Iteration: 1  Instance: /proccessor/dec/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1550 ps  Iteration: 1  Instance: /proccessor/dec/RF
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2350 ps  Iteration: 1  Instance: /proccessor/dec/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2350 ps  Iteration: 1  Instance: /proccessor/dec/RF
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3150 ps  Iteration: 1  Instance: /proccessor/dec/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3150 ps  Iteration: 1  Instance: /proccessor/dec/RF
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3950 ps  Iteration: 1  Instance: /proccessor/dec/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3950 ps  Iteration: 1  Instance: /proccessor/dec/RF
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4750 ps  Iteration: 1  Instance: /proccessor/dec/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4750 ps  Iteration: 1  Instance: /proccessor/dec/RF
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5550 ps  Iteration: 1  Instance: /proccessor/dec/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5550 ps  Iteration: 1  Instance: /proccessor/dec/RF
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6350 ps  Iteration: 1  Instance: /proccessor/dec/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6350 ps  Iteration: 1  Instance: /proccessor/dec/RF
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 7150 ps  Iteration: 1  Instance: /proccessor/dec/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 7150 ps  Iteration: 1  Instance: /proccessor/dec/RF
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 7950 ps  Iteration: 1  Instance: /proccessor/dec/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 7950 ps  Iteration: 1  Instance: /proccessor/dec/RF
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 8750 ps  Iteration: 1  Instance: /proccessor/dec/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 8750 ps  Iteration: 1  Instance: /proccessor/dec/RF
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 9850 ps  Iteration: 1  Instance: /proccessor/dec/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 9850 ps  Iteration: 1  Instance: /proccessor/dec/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 9900 ps  Iteration: 1  Instance: /proccessor/dec/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 9900 ps  Iteration: 1  Instance: /proccessor/dec/RF
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 15650 ps  Iteration: 1  Instance: /proccessor/dec/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 15650 ps  Iteration: 1  Instance: /proccessor/dec/RF
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 15800 ps  Iteration: 1  Instance: /proccessor/dec/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 15800 ps  Iteration: 1  Instance: /proccessor/dec/RF

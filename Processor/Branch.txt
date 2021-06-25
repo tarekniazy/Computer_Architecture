@@ -1,0 +1,31 @@
+﻿in R1 
+in R2 
+in R3 
+in R4 
+in R7 
+push R4 
+inc R7 
+and R1,R5,R5 
+jz R2 
+inc R7 
+jz R1 
+jc R3 
+not R5 
+in R6 
+jn R6 
+inc R1 
+clrc 
+and R0,R0,R0 
+out R6 
+rti 
+pop R6 
+call R6 
+inc R6 
+nop 
+nop 
+add R3,R6,R6 
+add R1,R2,R1 
+ret 
+inc R7 
+nop 
+nop 

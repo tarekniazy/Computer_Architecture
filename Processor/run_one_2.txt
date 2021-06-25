@@ -1,0 +1,64 @@
+-gui work.proccessor 
+# Start time: 05:37:47 on Jun 01,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.proccessor(a_data)
+# Loading work.fetch(a_fetch)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.mux_generic(with_select_mux)
+# Loading ieee.numeric_std(body)
+# Loading work.ram(syncrama)
+# Loading work.mux2(whenmux)
+# Loading work.n_adder(struct)
+# Loading work.my_adder(a_my_adder)
+# Loading work.buff(arch1)
+# Loading work.control(a_control)
+# Loading work.decode(a_decode)
+# Loading work.regfile(a_reg)
+# Loading work.exe_mem(struct_exe_mem)
+# Loading work.execute(arch1)
+# Loading work.alu2(struct_alu2)
+# Loading work.parta2(structa2)
+# Loading work.partb2(structb2)
+# Loading work.partc2(structc2)
+# Loading work.ccr(struct_ccr)
+# Loading work.mem_stage(struct_mem)
+# Loading work.su(struct_su)
+# Loading work.s_dff(struct_s_dff)
+# Loading work.mem_ram(syncrama)
+# Loading work.funit(forward)
+# ** Warning: (vsim-3473) Component instance "M3 : muxbit" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /proccessor File: D:/vhdl/proj_v14/Full.vhd
+# Loading work.hazardunit(hdu)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /proccessor/dec/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /proccessor/dec/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /proccessor/fet/IM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /proccessor/fet/IM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 99 ps  Iteration: 2  Instance: /proccessor/fet/IM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 99 ps  Iteration: 2  Instance: /proccessor/fet/IM
+force -freeze sim:/proccessor/INPORT 16'h5 0
+run
+force -freeze sim:/proccessor/INPORT 16'h10 0
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1350 ps  Iteration: 1  Instance: /proccessor/dec/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1350 ps  Iteration: 1  Instance: /proccessor/dec/RF
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1400 ps  Iteration: 1  Instance: /proccessor/dec/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1400 ps  Iteration: 1  Instance: /proccessor/dec/RF

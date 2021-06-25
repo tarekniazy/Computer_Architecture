@@ -1,0 +1,25 @@
+in R1 
+
+in R2
+
+in R3 
+
+in R4 
+
+iadd R3,R5,2 
+
+add R1,R4,R4 
+
+sub R5,R4,R6 
+
+and R7,R6,R6 
+
+or R2,R1,R1 
+
+shl R2,2 
+
+shr R2,3 
+
+swap R2,R5 
+
+add R5,R2,R2 
